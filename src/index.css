@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  font-family: "Karla", sans-serif;
+  background: #f5f7fb;
+}
+
+.splash--container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 97%;
+  width: 97%;
+}
+
+.splash--title {
+  font-size: 31px;
+}
+
+.splash--btn {
+  background: #4d5b9e;
+  padding: 15px 40px;
+  border-radius: 15px;
+  color: white;
+}
+
+.border {
+  border: 0.794239px solid #dbdef0;
+}
+
+.quiz-screen--container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 90px;
+  justify-content: center;
+  gap: 20px;
+}
+
+.quiz--container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.question {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 20px;
+  color: #293264;
+}
+
+.quiz--answers {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.quiz--answer {
+  color: #293264;
+  border: 0.794239px solid #4d5b9e;
+  border-radius: 7.94239px;
+  font-size: 16px;
+  padding: 5px 20px;
+}
+
+.output--container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.play_again--button,
+.check--button {
+  background: #4d5b9e;
+  width: 180px;
+  border-radius: 10px;
+  color: #f5f7fb;
+  padding: 15px 0px;
+}
+
+.check--button {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 97%;
+  width: 97%;
+}
